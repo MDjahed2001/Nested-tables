@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Nested Tables</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 50px;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        table {
+            border: 2px solid green;
+            margin: 20px auto;
+        }
+
+        table table {
+            border: 2px solid blue;
+            margin: 10px auto;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Class Routine</h2>
+    <p><b>Spring 2025</b></p>
+
+    <table border="2">
+        <tr>
+            <td>SUNDAY</td>
+            <td>Subject
+                <table border="2">
+                    <tr>
+                        <td>Inner Table row 1 column 1</td>
+                        <td>Inner Table row 1 column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 2 column 1</td>
+                        <td>Inner Table row 2 column 2</td>
+                        <td>Inner Table row 2 column 3</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 3 column 1</td>
+                        <td>Inner Table row 3 column 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td>Subject
+                <table border="2">
+                    <tr>
+                        <td>Inner Table row 1 column 1</td>
+                        <td>Inner Table row 1 column 2</td>
+                        <td>Inner Table row 1 column 3</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 2 column 1</td>
+                        <td>Inner Table row 2 column 2</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 3 column 1</td>
+                        <td>Inner Table row 3 column 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
